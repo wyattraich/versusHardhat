@@ -1,15 +1,19 @@
-# Basic Sample Hardhat Project
+# versus
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## Dependencies
+Vscode (remote containers extension)
+docker desktop
 
-Try running some of the following tasks:
+## Setup
+- clone repo
+- open versus folder in vscode
+- make sure remote containers extension is running
+- click on green bar in bottom left corner of vscode and search/select Remote Containers: reopen in container
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+## Run
+- '''shell npm install ''' to install all node dependencies
+- '''shell npm run start ''' to start front end app
+- '''shell npx hardhat run scripts/deploy.js ''' to deploy contract to local blockchain
+
+## Test
+- '''shell npx hardhat test ''' to test solidity smart contract
